@@ -1,0 +1,33 @@
+# Secrets and environment variables
+# .env
+# .env.*
+!.env.example
+!.env.*.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+
+# React / Node
+node_modules/
+frontend/dist/
+.vite/
+coverage/
+
+# macOS and IDE
+.DS_Store
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Streamlit local configuration
+.streamlit/secrets.toml
